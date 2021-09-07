@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>K-Ld</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+</head>
+<body>
+    <section>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide one">Slide 1</div>
+              <div class="swiper-slide two">Slide 2</div>
+              <div class="swiper-slide three">Slide 3</div>
+              <div class="swiper-slide four">Slide 4</div>
+              <div class="swiper-slide five">Slide 5</div>
+              <div class="swiper-slide six">Slide 6</div>
+              <div class="swiper-slide seven">Slide 7</div>
+              <div class="swiper-slide eight">Slide 8</div>
+              <div class="swiper-slide nine">Slide 9</div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        direction: "vertical",
+        slidesPerView: 1,
+        spaceBetween: 0,
+        mousewheel: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+</body>
+</html>

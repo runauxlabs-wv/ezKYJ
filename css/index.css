@@ -1,0 +1,39 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+    font-family: 'Noto Sans KR', sans-serif;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+} 
+.swiper.mySwiper{
+    width: 100%;
+    height: 100%;
+}
+/* .swiper.mySwiper .swiper-wrapper{
+    width: 100%;
+    height: 100%;
+} */
+.swiper.mySwiper .swiper-wrapper .swiper-slide{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper.mySwiper .swiper-wrapper .swiper-slide.one{
+    background: rgba(255, 0, 0, 0.25);
+}
+.swiper.mySwiper .swiper-wrapper .swiper-slide.two{
+    background: rgba(251, 255, 0, 0.25);
+}
+.swiper.mySwiper .swiper-wrapper .swiper-slide.three{
+    background: rgba(0, 255, 34, 0.25);
+}
+.swiper.mySwiper .swiper-wrapper .swiper-slide.four{
+    background: rgba(0, 153, 255, 0.25);
+}
