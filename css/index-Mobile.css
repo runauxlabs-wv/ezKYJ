@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+body{
+    min-width: 320px;
+}
+.inner{
+    width: 80%;
+}
+
+nav{
+
+}
+nav .mobile-menu{
+    display: flex;
+}
+
+nav ul{
+    width: 100vw;
+    height: 100vh;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    background: rgba(25, 25, 25, 0.25);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translateX(+100%);
+    transition: transform 0.5s;
+}
+nav ul.on{
+    transform: translateX(0%);
+    transition: transform 0.5s;
+}
+nav ul li{
+    margin: 0px 0px 20px; 
+}
+nav ul li:last-child{
+    margin: 0px; 
+}
+
+
+.mySwiper-one .swiper-wrapper .swiper-slide{
+    justify-content: flex-start;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.one button{
+    display: none;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.two .inner{
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.two h2{
+    margin: 20px 0px;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.two .caption{
+    width: 100%;
+    margin: 0px 0px 40px;
+    padding: 0px;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.two .caption .project-name{
+    display: flex;
+    flex-direction: column;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.two .color{
+    margin: 0px 0px 10px;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.two .color h3{
+    margin: 0px 10px 0px 0px;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.two .color ul li{
+    flex-direction: column;
+    margin: 0px 10px 0px 0px;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.two .color ul li span:first-child{
+    margin: 0px;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.two .type{
+    height: auto;
+    flex-direction: column;
+    margin: 0px 0px 10px;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.two .program{
+    height: auto;
+    flex-direction: column;
+    margin: 0px 0px 10px;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.two .cross-browsing{
+    flex-direction: column;
+    margin: 0px 0px 30px;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.two .cross-browsing ul li:first-child::before{
+    left: 0px;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.two .caption .button{
+    align-items: center;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.two .project div{
+    height: 150px;
+    background-size: contain;
+}
+
+
+.mySwiper-one .swiper-wrapper .swiper-slide.three .inner{
+    flex-direction: column;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.three .about{
+    width: 100%;
+    margin: 0px 0px 20px;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.three .about h3{
+    margin: 20px 0px;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.three .about h3 + div{
+    margin: 0px;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.three .about .education{
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.mySwiper-one .swiper-wrapper .swiper-slide.three .about .education h3{
+    margin: 0px;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.three .contact h3 + div{
+    margin: 0px;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.three .about .license{
+    flex-direction: column;
+    margin: 0px 0px 10px;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.three .about .license h3{
+    margin: 0px;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.three .about .skill{
+    flex-direction: column;
+    margin: 0px;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.three .about .skill h3{
+    margin: 0px;
+}
+
+.mySwiper-one .swiper-wrapper .swiper-slide.three .contact{
+    width: 100%;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.three .contact h3{
+    margin: 20px 0px;
+}
+
+.mySwiper-one .swiper-wrapper .swiper-slide.three .contact .tel dd{
+    font-size: 20px;
+}
+.mySwiper-one .swiper-wrapper .swiper-slide.three .contact .e-mail dd{
+    font-size: 20px;
+}

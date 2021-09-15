@@ -1,15 +1,17 @@
 $(document).ready(function(){
-    $(".swiper.mySwiper nav img").click(function(){
-        $(".swiper.mySwiper nav").css
-    });
+  $("nav .mobile-menu").click(function(){
+    $("nav ul").addClass("on");
+    $("nav .mobile-menu").css({"display": "none",});
+    $("nav .clear").css({"display": "block",});
+  });
 
-    $(".swiper.mySwiper nav").click(function(){
-      $(this).addClass("on").siblings().removeClass("on");
-    });
-    $(".swiper.mySwiper nav.").click(function(){
-      $(this).addClass("on").siblings().removeClass("on");
-    });
+  $("nav .clear").click(function(){
+    $("nav ul").removeClass("on");
+    $("nav .mobile-menu").css({"display": "block",});
+    $("nav .clear").css({"display": "none",});
+  });
 });
+
 var swiper = new Swiper(".mySwiper-one", {
     direction: "vertical",
     slidesPerView: 1,
