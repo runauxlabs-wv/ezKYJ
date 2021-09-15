@@ -313,7 +313,7 @@ nav .clear{
     margin-right: 20px;
 }
 .mySwiper-one .swiper-wrapper .swiper-slide.two .cross-browsing ul li:first-child{
-    background-image: url(/image/Internet_Explorer_ICON.png);
+    background-image: url(./image/Internet_Explorer_ICON.png);
     position: relative;
 }
 .mySwiper-one .swiper-wrapper .swiper-slide.two .cross-browsing ul li:first-child::before{
