@@ -313,7 +313,7 @@ nav .clear{
     margin-right: 20px;
 }
 .mySwiper-one .swiper-wrapper .swiper-slide.two .cross-browsing ul li:first-child{
-    background-image: url(../Internet_Explorer_ICON.png);
+    background-image: url(image/Internet_Explorer_ICON.png);
     position: relative;
 }
 .mySwiper-one .swiper-wrapper .swiper-slide.two .cross-browsing ul li:first-child::before{
@@ -325,13 +325,13 @@ nav .clear{
     left: -30px;
 }
 .mySwiper-one .swiper-wrapper .swiper-slide.two .cross-browsing ul li:nth-child(2){
-    background-image: url(../Microsoft_Edge_ICON.png);
+    background-image: url(image/Microsoft_Edge_ICON.png);
 }
 .mySwiper-one .swiper-wrapper .swiper-slide.two .cross-browsing ul li:nth-child(3){
-    background-image: url(../Google_Chrome_ICON.png);
+    background-image: url(image/Google_Chrome_ICON.png);
 }
 .mySwiper-one .swiper-wrapper .swiper-slide.two .cross-browsing ul li:last-child{
-    background-image: url(../Firefox_ICON.png);
+    background-image: url(image/Firefox_ICON.png);
     margin-right: 0px;
 }
 .mySwiper-one .swiper-wrapper .swiper-slide.two .caption .button{
@@ -366,7 +366,7 @@ nav .clear{
     height: 478px;
     /* height: 0px; */
     /* background: #f1f1f5; */
-    background-image: url(../Cheongju_Mockup.png);
+    background-image: url(image/Cheongju_Mockup.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -477,27 +477,27 @@ nav .clear{
     margin-right: 20px;
 }
 .mySwiper-one .swiper-wrapper .swiper-slide.three .about .skill ul li:first-child{
-    background-image: url(../Adobe_illustrator_ICON.png);
+    background-image: url(image/Adobe_illustrator_ICON.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .mySwiper-one .swiper-wrapper .swiper-slide.three .about .skill ul li:nth-child(2){
-    background-image: url(../Adobe_Photoshop_ICON.png);
+    background-image: url(image/Adobe_Photoshop_ICON.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .mySwiper-one .swiper-wrapper .swiper-slide.three .about .skill ul li:nth-child(3){
-    background-image: url(../HTML_5_ICON.png);
+    background-image: url(image/HTML_5_ICON.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .mySwiper-one .swiper-wrapper .swiper-slide.three .about .skill ul li:nth-child(4){
-    background-image: url(../CSS_3_ICON.png);
+    background-image: url(image/CSS_3_ICON.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .mySwiper-one .swiper-wrapper .swiper-slide.three .about .skill ul li:last-child{
-    background-image: url(../jQuery_ICON.png);
+    background-image: url(image/jQuery_ICON.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 0px;
