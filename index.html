@@ -3,155 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTFOLIO</title>
+    <title>Hello, world!</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 768px)" href="css/index-Mobile.css">
+    <link rel="stylesheet" type="text/css" href="css/Index.css">
 </head>
 <body>
-    <section>
-      <nav>
-        <h2><a href="#">KYJ</a></h2>
-        <ul>
-          <li><a href="#title">TITLE</a></li>
-          <li><a href="#project">PROJECT</a></li>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#contact">CONTACT</a></li>
-        </ul>
-        <img class="mobile-menu" src="image/menu_black_24dp.svg" alt="menu">
-        <img class="clear" src="image/clear_black_24dp.svg" alt="clear">
-      </nav>
+  <nav>
+    <h1><a href="#">KYJ</a></h1>
+    <ul>
+      <li data-id="section-one">TITLE</li>
+      <li data-id="section-two">PROJECT</li>
+      <li data-id="section-three">CONTACT</li>
+    </ul>
+    <button>
+      <img class="menu" src="image/menu_black_24dp.svg" alt="menu">
+    </button>
+    <button>
+      <img class="clear" src="image/clear_black_24dp.svg" alt="clear">
+    </button>
+  </nav>
 
-      <div class="swiper mySwiper-one">
-        <div class="swiper-wrapper">
-          <div id="title" class="swiper-slide one">
-            <ul>
-              <li>UI/UX DESIGN</li>
-              <li>WEB PUBLISHING</li> 
-              <li>PORTFOLIO</li>
-            </ul>
-            <button>
-              <span class="scroll-icon"></span>
-              <span>Scroll Down</span>
-            </button>
-          </div>
+  <section class="section-one">
+    <h2>TITLE</h2>
+    <ul>
+      <li>UI/UX DESIGN</li>
+      <li>WEB PUBLISHING</li>
+      <li>PORTFOLIO</li>
+    </ul>
+    <button>
+      <span class="scroll-icon"></span>
+      <span>Scroll Down</span>
+    </button>
+  </section>
 
-          <div id="project" class="swiper-slide two">
-            <div class="swiper mySwiper-two">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide project-one">
-                  <div class="inner">
-                    <h2>Project</h2>
-                    <div class="caption">
-                      <dl class="project-name">
-                        <dt>청주예술의전당</dt>
-                        <dd>다양한 사용자를 고려하여 정보를 직관적으로 파악할 수 있도록 개편하였다. </dd>
-                      </dl>
-                      <div class="color">
-                        <h3>Color</h3>
-                        <ul>
-                          <li>
-                            <span></span>
-                            <span>#1C3E61</span>
-                          </li>
-                          <li>
-                            <span></span>
-                            <span>#ffffff</span>
-                          </li>
-                        </ul>
-                      </div>
-                      <dl class="type">
-                        <dt>Type</dt>
-                        <dd>PC/Mobile <span class="kr">반응형 홈페이지</span></dd>
-                      </dl>
-                      <dl class="program">
-                        <dt>Program</dt>
-                        <dd>HTML, CSS, Javascript, jQuery <span class="kr">웹표준 제작</span></dd>
-                      </dl>
-                      <div class="cross-browsing">
-                        <h3>Cross Browsing</h3>
-                        <ul>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                        </ul>
-                      </div>
-                      <ul class="button">
-                        <li><a href="https://ezportfolio.cafe24.com/ez210607/kyj/html/CheongJu-Main.html" target="_blank">Main</a></li>
-                        <li>
-                          <a href="https://ezportfolio.cafe24.com/ez210607/kyj/html/CheongJu-Sub-1.html" target="_blank">Sub 1</a></li>
-                        <li>
-                          <a href="https://ezportfolio.cafe24.com/ez210607/kyj/html/CheongJu-Sub-2.html" target="_blank">Sub 2</a></li>
-                      </ul>
-                    </div>
-                    <div class="project">
-                      <div class=""></div>
-                    </div>
-                  </div>
-                </div>
-                <!-- <div class="swiper-slide"></div> -->
-                <!-- <div class="swiper-slide"></div> -->
-              </div>
-              <!-- <div class="swiper-button-next"></div> -->
-              <!-- <div class="swiper-button-prev"></div> -->
-              <!-- <div class="swiper-pagination"></div> -->
-            </div>
-          </div>
-
-          <div class="swiper-slide three">
-            <div class="inner">
-              <div id="about" class="about">
-                <h3>ABOUT</h3>
-                <div>
-                  <div class="education">
-                    <h3>Education</h3>
-                    <ul>
-                      <li>NCS <span class="kr">웹디자인</span>(UI/UX) <span class="kr">및 반응형 웹 프로젝트 과정 수료</span></li>
-                    </ul>
-                  </div>
-                  <div class="license">
-                    <h3>License</h3>
-                    <ul>
-                      <li>2011. 12. <span class="kr">컴퓨터그래픽스운용기능사</span></li>
-                      <li>2019. 07. GTQ <span class="kr">그래픽기술자격 1급</span></li>
-                      <li>2021. 11. <span class="kr">웹디자인기능사(예정)</span></li>
-                    </ul>
-                  </div>
-                  <div class="skill">
-                    <h3>Skill</h3>
-                    <ul>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div id="contact" class="contact">
-                <h3>CONTACT</h3>
-                <div>
-                  <dl class="tel">
-                    <dt>TEL.</dt>
-                    <dd>010. 4591. 8974</dd>
-                  </dl>
-                  <dl class="e-mail">
-                    <dt>E-mail</dt>
-                    <dd>ava_taara@naver.com</dd>
-                  </dl>
-                </div>
-                <!-- <div class="contact-form"></div> -->
-              </div>
-            </div>
-          </div>
+  <section class="section-two">
+    <div class="inner">
+      <h2>Project</h2>
+      <div>
+        <img src="image/CheongJu-Main.png" alt="">
+      </div>
+      <div>
+        <article class="caption">
+          <h3>청주예술의전당</h3>
+          <p>사용자를 고려하여 정보를 직관적으로 파악할 수 있도록 개편하였다.</p>
+        </article>
+        <article class="type">
+          <h4>Type</h4>
+          <p>PC/Mobile 반응형 홈페이지</p>
+        </article>
+        <article class="skill">
+          <h4>Skill</h4>
+          <p>HTML, CSS, jQuery</p>
+        </article>
+        <article class="cross-browsing">
+          <h4>Cross Browsing</h4>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </article>
+        <div class="shortcut">
+          <a href="https://ezportfolio.cafe24.com/ez210607/kyj/html/CheongJu-Main.html" target="_blank"><span>Main</span></a>
+          <a href="https://ezportfolio.cafe24.com/ez210607/kyj/html/CheongJu-Sub-1.html" target="_blank"><span>Sub 1</span></a>
+          <a href="https://ezportfolio.cafe24.com/ez210607/kyj/html/CheongJu-Sub-2.html" target="_blank"><span>Sub 2</span></a>
         </div>
-      </div>    
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="js/index.js"></script>
+  <section class="section-three">
+    <div class="inner">
+      <div class="about">
+        <h2>About</h2>
+        <div>
+          <article class="education">
+            <h4>Education</h4>
+            <p>2021 웹디자인(UI/UX) 및 반응형 웹 프로젝트 과정 수료</p>
+          </article>
+          <article class="license">
+            <h4>License</h4>
+            <p>2011. 12. 컴퓨터그래픽스운용기능사</p>
+            <p>2019. 07. GTQ 그래픽기술자격 1급</p>
+            <p>2021. 11. 웹디자인기능사(예정)</p>
+          </article>
+          <article class="skill">
+            <h4>Skill</h4>
+            <p>Photoshop, Illustrator, HTML, CSS, JavaScript, jQuery</p>
+          </article>
+        </div>
+      </div>
+      <div class="contact">
+        <h2>Contact</h2>
+        <div>
+          <article class="tel">
+            <h4>TEL.</h4>
+            <P>010. 4591. 8974.</P>
+          </article>
+          <article class="e-mail">
+            <h4>E-mail</h4>
+            <p>ava_taara@naver.com</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="js/Index.js"></script>
 </body>
 </html>
