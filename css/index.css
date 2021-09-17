@@ -81,7 +81,8 @@ nav ul li{
 nav ul li:first-child{
     margin: 0px;
 }
-nav button{
+nav button,
+nav img{
     width: 40px;
     height: 40px;
     display: none;

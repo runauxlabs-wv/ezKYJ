@@ -38,12 +38,13 @@ nav ul li:first-child{
 nav ul li:last-child{
     margin: 0px; 
 }
-nav button:first-of-type{
+nav button:first-of-type,
+nav button:first-of-type img{
     display: block;
 }
-nav button:first-of-type img{
-    width: 40px;
-    height: 40px;
+nav button:last-of-type,
+nav button:last-of-type img{
+    z-index: 10;
 }
 .section-one ul{
     writing-mode: vertical-lr;

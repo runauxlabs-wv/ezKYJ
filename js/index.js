@@ -8,15 +8,19 @@ $(document).ready(function(){
             }, 1000);
         });
     });
-    $("nav .menu").click(function(){
+    $("nav button:first-of-type").click(function(){
         $("nav ul").addClass("on");
-        $("nav .menu").css({"display": "none",});
-        $("nav .clear").css({"display": "block",});
+        $("nav button:first-of-type").css({"display": "none",});
+        $("nav button:first-of-type img").css({"display": "none",});
+        $("nav button:last-of-type").css({"display": "block",});
+        $("nav button:last-of-type img").css({"display": "block",});
     });
 
-    $("nav .clear").click(function(){
-        $("nav ul").removeClass("on");
-        $("nav .menu").css({"display": "block",});
-        $("nav .clear").css({"display": "none",});
+    $("nav button:last-of-type").click(function(){
+        $("nav ul.on").removeClass("on");
+        $("nav button:first-of-type").css({"display": "block",});
+        $("nav button:first-of-type img").css({"display": "block",});
+        $("nav button:last-of-type").css({"display": "none",});
+        $("nav button:last-of-type img").css({"display": "none",});
     });
 });
