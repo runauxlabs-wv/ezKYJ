@@ -44,6 +44,10 @@ h4{
     font-size: 20px;
     font-weight: 700;
 }
+button{
+    background: none;
+    border: none;
+}
 article{
     margin: 0px 0px 20px;
 }
@@ -100,7 +104,6 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: ; */
 }
 .section-one ul li{
     font-size: 25vh;
@@ -114,8 +117,6 @@ section{
 }
 .section-one button{
     height: auto;
-    background: none;
-    border: none;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -185,6 +186,7 @@ section{
 }
 .section-two .inner > div:first-of-type img{
     width: 100%;
+    height: auto;
     box-shadow: 1px 3px 5px rgba(25,25,25,0.25);
 }
 .section-two .inner > div:last-of-type{
@@ -252,6 +254,9 @@ section{
     line-height: 40px;
     text-align: center;
     margin: 0px 20px 0px 0px;
+}
+.section-two .shortcut a:last-child{
+    margin: 0px;
 }
 .section-two .shortcut a span{
     color: #fff;

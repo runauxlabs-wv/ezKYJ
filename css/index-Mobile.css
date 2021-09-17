@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body{
+    min-width: 320px;
+}
+.inner{
+    width: 80%;
+    margin: 0px auto;
+}
+nav ul{
+    display: none;
+}
+nav button:first-of-type{
+    display: block;
+}
+nav button:first-of-type img{
+    width: 40px;
+    height: 40px;
+}
+.section-one ul{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+}
+.section-one ul li{
+    font-size: 34vw;
+}
+.section-one button{
+    width: 120px;
+    right: calc(50% - 60px);
+}
+/* .section-two .inner{
+    flex-direction: column;
+} */
+.section-two .inner > div:first-of-type{
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+}
+.section-two .inner > div:last-of-type{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+}
+.section-two div:last-of-type .cross-browsing{
+    flex-direction: column;
+}
+.section-two .shortcut{
+    width: 100%;
+}
+.section-three .about,
+.section-three .contact{
+    width: 100%;
+    height: auto;
+}
+.section-three .about{
+    margin: 0px 0px 40px;
+}
+.section-three .about::after,
+.section-three .contact::after{
+    width: 75%;
+}
+.section-three .about h2, 
+.section-three .contact h2{
+    margin: 0px 0px 20px;
+}
+.section-three .about h2 + div, 
+.section-three .contact h2 + div{
+    height: auto;
+}
