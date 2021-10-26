@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello, world!</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 768px)" href="css/index-Mobile.css">
 </head>
@@ -38,45 +39,93 @@
   </section>
 
   <section class="section-two">
-    <div class="inner">
-      <h2>Project</h2>
-      <div>
-        <img src="image/CheongJu-Main.png" alt="Project A">
-      </div>
-      <div>
-        <article class="caption">
-          <h3>청주예술의전당</h3>
-          <p>사용자를 고려하여 정보를 직관적으로 파악할 수 있도록 개편하였다.</p>
-        </article>
-        <article class="type">
-          <h4>Type</h4>
-          <p>PC/Mobile 반응형 홈페이지</p>
-        </article>
-        <article class="skill">
-          <h4>Skill</h4>
-          <p>HTML, CSS, jQuery</p>
-        </article>
-        <article class="cross-browsing">
-          <h4>Cross Browsing</h4>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </article>
-        <div class="shortcut">
-          <a href="https://ezportfolio.cafe24.com/ez210607/kyj/html/CheongJu-Main.html" target="_blank"><span>Main</span></a>
-          <a href="https://ezportfolio.cafe24.com/ez210607/kyj/html/CheongJu-Sub-1.html" target="_blank"><span>Sub 1</span></a>
-          <a href="https://ezportfolio.cafe24.com/ez210607/kyj/html/CheongJu-Sub-2.html" target="_blank"><span>Sub 2</span></a>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide one">
+          <div class="inner">
+            <h2>Project 01</h2>
+            <div class="slide-wrap">
+              <div data-aos="zoom-in-up">
+                <img src="image/CheongJu-Main.png" alt="Project A">
+              </div>
+              <div data-aos="zoom-in-left">
+                <article class="caption">
+                  <h3>청주예술의전당</h3>
+                  <p>사용자를 고려하여 정보를 직관적으로 파악할 수 있도록 개편하였다.</p>
+                </article>
+                <article class="type">
+                  <h4>Type</h4>
+                  <p>PC/Mobile 반응형 홈페이지</p>
+                </article>
+                <article class="skill">
+                  <h4>Skill</h4>
+                  <p>HTML, CSS, jQuery</p>
+                </article>
+                <article class="cross-browsing">
+                  <h4>Cross Browsing</h4>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </article>
+                <div class="shortcut">
+                  <a href="https://ezportfolio.cafe24.com/ez210607/kyj/html/CheongJu-Main.html" target="_blank"><span>Main</span></a>
+                  <a href="https://ezportfolio.cafe24.com/ez210607/kyj/html/CheongJu-Sub-1.html" target="_blank"><span>Sub 1</span></a>
+                  <a href="https://ezportfolio.cafe24.com/ez210607/kyj/html/CheongJu-Sub-2.html" target="_blank"><span>Sub 2</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide two">
+          <div class="inner">
+            <h2>Project 02</h2>
+            <div class="slide-wrap">
+              <div data-aos="zoom-in-up">
+                <img src="image/VIVALDIPARK-Main.png" alt="Project B">
+              </div>
+              <div data-aos="zoom-in-left">
+                <article class="caption">
+                  <h3>비발디파크</h3>
+                  <p>현재 준비 중입니다.</p>
+                </article>
+                <article class="type">
+                  <h4>Type</h4>
+                  <p>PC/Mobile 반응형 홈페이지</p>
+                </article>
+                <article class="skill">
+                  <h4>Skill</h4>
+                  <p>HTML, CSS, jQuery</p>
+                </article>
+                <article class="cross-browsing">
+                  <h4>Cross Browsing</h4>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </article>
+                <div class="shortcut">
+                  <a href="#"><span>Main</span></a>
+                  <a href="#"><span>Sub 1</span></a>
+                  <a href="#"><span>Sub 2</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     </div>
   </section>
 
   <section class="section-three">
-    <div class="inner">
-      <div class="about">
+    <div data-aos="zoom-in-up" class="about">
+      <div class="inner">
         <h2>About</h2>
         <div>
           <article class="education">
@@ -87,7 +136,7 @@
             <h4>License</h4>
             <p>2011. 12. 컴퓨터그래픽스운용기능사</p>
             <p>2019. 07. GTQ 그래픽기술자격 1급</p>
-            <p>2021. 11. 웹디자인기능사(예정)</p>
+            <p>2021. 12. 웹디자인기능사 (예정)</p>
           </article>
           <article class="skill">
             <h4>Skill</h4>
@@ -95,7 +144,9 @@
           </article>
         </div>
       </div>
-      <div class="contact">
+    </div>
+    <div data-aos="zoom-in-down" class="contact">
+      <div class="inner">
         <h2>Contact</h2>
         <div>
           <article class="tel">
@@ -113,6 +164,10 @@
   
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="js/index.js"></script>
 </body>
 </html>
