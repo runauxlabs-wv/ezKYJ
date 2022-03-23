@@ -1,33 +1,34 @@
 $(document).ready(function(){
-    $("nav ul li").each(function() {
-        var thisOffset = $("." + $(this).data('id')).offset().top;
+    $(".gnb li").each(function (){
+        var thisOffset = $("." + $(this).data("id")).offset().top;
 
-        $(this).click(function() {
+        $(this).click(function(){
             $("html, body").animate({
                 scrollTop: thisOffset
             }, 1000);
         });
     });
+
     $("nav button:first-of-type").click(function(){
-        $("nav ul").addClass("on");
+        $("nav .gnb").addClass("on");
         $("nav button:first-of-type").css({"display": "none",});
-        $("nav button:first-of-type img").css({"display": "none",});
         $("nav button:last-of-type").css({"display": "block",});
-        $("nav button:last-of-type img").css({"display": "block",});
     });
 
     $("nav button:last-of-type").click(function(){
-        $("nav ul.on").removeClass("on");
+        $("nav .gnb.on").removeClass("on");
         $("nav button:first-of-type").css({"display": "block",});
-        $("nav button:first-of-type img").css({"display": "block",});
         $("nav button:last-of-type").css({"display": "none",});
-        $("nav button:last-of-type img").css({"display": "none",});
     });
 });
 
 var swiper = new Swiper(".mySwiper", {
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+        prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next",
     },
-  });
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
