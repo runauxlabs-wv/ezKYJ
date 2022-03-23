@@ -274,7 +274,7 @@ nav button{
     width: 40px;
     height: 40px;
     /* ▼ To be deleted. */
-    background: #ccc;
+    background: #fff;
     border-radius: 20px;
     /* ▲ To be deleted. */
     background-repeat: no-repeat;
@@ -292,7 +292,7 @@ nav button{
 .sec02.one .cro-bro ul li:first-child::after{
     width: 110px;
     content: "IE9, IE10, IE11";
-    color: #fff;
+    color: #767676;
     font-size: 16px;
     position: absolute;
     top: 40px;
