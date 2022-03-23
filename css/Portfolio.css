@@ -292,7 +292,7 @@ nav button{
 .sec02.one .cro-bro ul li:first-child::after{
     width: 110px;
     content: "IE9, IE10, IE11";
-    /* color: #767676; */
+    color: #fff;
     font-size: 16px;
     position: absolute;
     top: 40px;
