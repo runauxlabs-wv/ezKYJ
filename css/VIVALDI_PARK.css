@@ -621,16 +621,16 @@ header .header-contents .list-area li{
     opacity: 1;
 }
 .facilites .dining{
-    background-image: url(/image/Facilites_Dining.png);
+    background-image: url(../image/Facilites_Dining.png);
 }
 .facilites .golf{
-    background-image: url(/image/Facilites_Golf.png);
+    background-image: url(../image/Facilites_Golf.png);
 }
 .facilites .ocean-world{
-    background-image: url(/image/Facilites_Ocean_World.png);
+    background-image: url(../image/Facilites_Ocean_World.png);
 }
 .facilites .ski-board{
-    background-image: url(/image/Facilites_Ski_Board.png);
+    background-image: url(../image/Facilites_Ski_Board.png);
 }
 .facilites .img-area{
     width: 100%;

@@ -286,26 +286,26 @@ nav button{
     margin-right: 0px;
 }
 .sec02.one .cro-bro ul li:first-child{
-    background-image: url(/image/Internet_Explorer_ICON.png);
+    background-image: url(../image/Internet_Explorer_ICON.png);
     position: relative;
 }
 .sec02.one .cro-bro ul li:first-child::after{
     width: 110px;
     content: "IE9, IE10, IE11";
-    color: #767676;
+    /* color: #767676; */
     font-size: 16px;
     position: absolute;
     top: 40px;
     left: 0px;
 }
 .sec02.one .cro-bro ul li:nth-child(2){
-    background-image: url(/image/Microsoft_Edge_ICON.png)
+    background-image: url(../image/Microsoft_Edge_ICON.png)
 }
 .sec02.one .cro-bro ul li:nth-child(3){
-    background-image: url(/image/Google_Chrome_ICON.png);
+    background-image: url(../image/Google_Chrome_ICON.png);
 }
 .sec02.one .cro-bro ul li:last-child{
-    background-image: url(/image/Firefox_ICON.png);
+    background-image: url(../image/Firefox_ICON.png);
 }
 .sec03{
     height: calc(100% - 200px);
@@ -329,9 +329,6 @@ nav button{
 }
 .sec03 .about::after{
     right: 0px;
-}
-.sec03 .contact{
-    /* text-align: left; */
 }
 .sec03 .contact::after{
     left: 0px;
