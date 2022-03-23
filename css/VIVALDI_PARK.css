@@ -518,6 +518,7 @@ header .header-contents .list-area li{
 .package .swiper-slide{
     width: 100%;
     height: 100%;
+    border: 1px solid #ECE7DF;
 }
 .package .img-area{
     height: 50%;
@@ -536,6 +537,10 @@ header .header-contents .list-area li{
 }
 .package .event-title{
     font-size: 20px;
+    text-align: left;
+}
+.package .event-contents{
+    text-align: left;
 }
 .package .event-date{
     width: 100%;
